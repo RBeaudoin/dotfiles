@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/rbeaudoin/src/airflow/airflow-base'
+let g:netrw_dirhist_2='/Users/rbeaudoin/src/airflow/pkg'
+let g:netrw_dirhist_3='/Users/rbeaudoin/go/src/stash.cs.sys/dsci/data-replicator/cmd/data-replicator'
