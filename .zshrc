@@ -1,7 +1,13 @@
 setopt PROMPT_SUBST
 
 # Load version control information
-autoload -Uz vcs_info
+autoload -Uz vcs_info add-zsh-hook
+
+exec_vcs_info() {
+  vcs_info
+}
+
+add-zsh-hook precmd exec_vcs_info
 
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats "%b"
